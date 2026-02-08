@@ -48,6 +48,8 @@ Validation-aware threshold optimization and ensemble methods were employed to en
 ---
 
 ## Results
+![Result_image](QED_results.png)
+
 After enforcing physical constraints and removing dataset bias:
 - A **regularized MLP ensemble** achieved the best performance
 - Test accuracy saturated at approximately **92%**
@@ -59,11 +61,6 @@ These results indicate a **fundamental performance ceiling** when using local co
 
 ---
 
-## Key Insight
-This work demonstrates that naïve machine-learning pipelines can significantly overestimate entanglement-detection performance.  
-When physical symmetries and boundary effects are properly enforced, classification accuracy is fundamentally limited—revealing an information-theoretic constraint rather than a modeling deficiency.
-
----
 
 ## Status
 This project is intended as a research study and first publication effort, with ongoing work focused on visualization, boundary-resolved analysis, and quantitative correlations between classifier confidence and entanglement strength.
